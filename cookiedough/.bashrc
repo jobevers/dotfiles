@@ -15,6 +15,7 @@ export PROMPT_COMMAND="history -a"
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+export EDITOR=emacs
 
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
 
